@@ -18,4 +18,4 @@ Este indicador es utilizado por parte del operario de Syri para visualizar las u
 
 <h2>User Flow<h2>
   
-<img src="/Frame 1.png" width="350"/>
+<img src="/Frame 1.png"/>
