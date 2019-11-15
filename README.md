@@ -15,3 +15,7 @@ Esta plataforma es utilizada por parte de los estudiantes que quieren reservar l
 Indicador en arduino:
 
 Este indicador es utilizado por parte del operario de Syri para visualizar las unidades disponibles de cada elemento y así poder determinar si rechazar o aprobar una nueva solicitud. Las unidades disponibles serán visualizadas en una pantalla led en el arduino que estará sincronizado con la base de datos.
+
+<h2>User Flow<h2>
+  
+<img src="/Frame 1.png" width="350"/>
