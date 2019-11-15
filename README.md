@@ -31,5 +31,7 @@ Este indicador es utilizado por parte del operario de Syri para visualizar las u
 <h2>User Flow<h2>
   
 <img src="/Frame 1.png"/>
+ <p align="center">
+ <img src="/problem.jpg"/>
+  </p>
 
-<img src="/problem.jpg"/>
