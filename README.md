@@ -14,7 +14,7 @@ Esta plataforma es utilizada por los operarios de Syri para gestionar las solici
 <strong>Plataforma móvil:</strong>
 
  <p align="center">
-<img src="/framemovil.png"/>
+<img src="/framemovil.png"/ width="350">
   </p>
 
 Esta plataforma es utilizada por parte de los estudiantes que quieren reservar los equipos que ofrece Syri, esta cuenta con una pantalla de login para el solo acceso de estudiantes de la universidad y una pantalla donde se muestre que tipo de equipo quiere solicitar y el tiempo que tiene este para ser entregado una vez aprobada la solicitud y retirado dicho elemento. La opcion de ampliacion de tiempo es mostrada cuando la solicitud del préstamo haya sido previamente aprobada por el operario de Syri.
