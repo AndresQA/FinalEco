@@ -4,13 +4,6 @@ El proyecto trata acerca de un aplicativo multinodos en donde los estudiantes de
 
 Los nodos a operar son lo siguientes: 
 
-<strong>Plataforma web:</strong>
- <p align="center">
-<img src="/frameweb.png"/>
-  </p>
-
-Esta plataforma es utilizada por los operarios de Syri para gestionar las solicitudes de préstamo de equipos como de ampliación de tiempo. Todas las solicitudes del nodo o aplicación móvil de android se visualizan en esta plataforma para ejecutar la respectiva solicitud como aprobar o no el préstamo de equipo y la ampliación de tiempo en los préstamos.
-
 <strong>Plataforma móvil:</strong>
 
  <p align="center">
@@ -19,10 +12,18 @@ Esta plataforma es utilizada por los operarios de Syri para gestionar las solici
 
 Esta plataforma es utilizada por parte de los estudiantes que quieren reservar los equipos que ofrece Syri, esta cuenta con una pantalla de login para el solo acceso de estudiantes de la universidad y una pantalla donde se muestre que tipo de equipo quiere solicitar y el tiempo que tiene este para ser entregado una vez aprobada la solicitud y retirado dicho elemento. La opcion de ampliacion de tiempo es mostrada cuando la solicitud del préstamo haya sido previamente aprobada por el operario de Syri.
 
+<strong>Plataforma web:</strong>
+ <p align="center">
+<img src="/frameweb.png"/>
+  </p>
+
+Esta plataforma es utilizada por los operarios de Syri para gestionar las solicitudes de préstamo de equipos como de ampliación de tiempo. Todas las solicitudes del nodo o aplicación móvil de android se visualizan en esta plataforma para ejecutar la respectiva solicitud como aprobar o no el préstamo de equipo y la ampliación de tiempo en los préstamos.
+
+
 <strong>Indicador en arduino:</strong>
 
  <p align="center">
-<img src="/framearduino.png"/width="150">
+<img src="/framearduino.png"/width="200">
   </p>
 
 Este indicador es utilizado por parte del operario de Syri para visualizar las unidades disponibles de cada elemento y así poder determinar si rechazar o aprobar una nueva solicitud. Las unidades disponibles serán visualizadas en una pantalla led en el arduino que estará sincronizado con la base de datos.
