@@ -35,3 +35,10 @@ Este indicador es utilizado por parte del operario de Syri para visualizar las u
  <img src="/problem.jpg"/>
   </p>
 
+
+
+<h2>COMUNICACIÓN</h2> 
+
+La información estará alojada en un servidor en tiempo real Firebase, solo se podrá acceder a la base de datos si el usuario está autentificado. Tanto la plataforma web controlada por el facilitador de Syri, como la aplicación Android controlada por el solicitante. Ambos nodos implementan los servicios de Firebase (Autentification y Real Time Database). El tercer nodo de comunicación trabaja con una placa Arduino con el módulo ethernet shield, que estará conectado a la red de internet, y estará leyendo el flujo de datos crudo de la base de datos firebase convertidos en formato json.
+La base de datos consistirá en una rama que almacena en listas, ordenadas por un key aleatorio cada solicitud y la información de la misma, tales como el solicitante, el producto, la hora de la solicitud, la carrera del estudiante. La otra rama es una lista de objetos que almacena cada uno de los objetos disponibles para ser prestados, y la cantidad disponible de los mismos.
+
