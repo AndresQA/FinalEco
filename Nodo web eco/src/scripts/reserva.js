@@ -59,7 +59,7 @@ class Reserva {
     }
 
     getObserver(admin) {
-        //para llamar al padre de los administradores y hacerlo desde la misma reserva.js
+        //para llamar al padre de admin y trabajarlo desde la misma reserva.js
         this.admin = admin;
     }
 
@@ -78,6 +78,22 @@ class Reserva {
         }
         return text;
     }
+
+    chooseTextStateProd() {
+        var textp = "";
+        switch (this.recurso) {
+            case "audifonos":
+                textp = "Audifonos"
+                break;
+            case "portatiles":
+                textp = "Macbook"
+                break;
+            case "tablets":
+                textp = "Tablet"
+                break;
+        }
+        return textp;
+    }
     //Render de listado
     render() {
         this.view = document.createElement("div");
@@ -93,7 +109,7 @@ class Reserva {
                 <p> ${this.fecha} </p>
             </div>
             <div>
-                <p> ${this.recurso} </p>
+                <p> ${this.chooseTextStateProd()} </p>
             </div>
             <div>
                 <p class="estado ${this.estado}"> ${this.chooseTextState()} </p>
