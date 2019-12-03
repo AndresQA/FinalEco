@@ -141,7 +141,7 @@ class Reserva {
                 <p> ${this.fecha} </p>
             </div>
             <div>
-                <p> ${this.recurso} </p>
+                <p> ${this.chooseTextStateProd()} </p>
             </div>
             <div>
                 <p class="estado ${this.estado}"> ${this.chooseTextState()} </p>
